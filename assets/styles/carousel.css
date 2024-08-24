@@ -1,0 +1,60 @@
+.carousel {
+  position: relative;
+  overflow: hidden;
+  margin: 0px auto;
+  align-content: center;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  background-color: #f9f9f9;
+  border-radius: 50px;
+  height: 350px;
+  width: 350px;
+  padding: 20px;
+}
+
+.carousel-content {
+  transition: transform 0.5s ease-in-out;
+  max-width: 300px;
+  border-radius: 20px;
+  object-fit: contain;
+  display: flex;
+  align-content: center;
+  gap: 55px;
+  padding-left: 20px;
+}
+
+.carousel-guideline-image {
+  width: 275px;
+  object-fit: inherit;
+}
+
+.carousel-nav-btn {
+  position: absolute;
+  justify-content: space-between;
+  display: flex;
+  top: 50%;
+  left: 2%;
+  right: 2%;
+}
+
+.carousel-nav-btn button {
+  background-color: #009dde;
+  border: none;
+  cursor: pointer;
+  border-radius: 50%;
+  pointer-events: auto;
+  width: 20px;
+  height: 20px;
+  display: flex;
+  justify-content: center;
+}
+
+.carousel-nav-btn img {
+  width: 20px;
+}
+
+.download-icon-logos {
+  position: absolute;
+  top: 10px;
+  right: 15px;
+  width: 40px;
+}

@@ -1,0 +1,131 @@
+@font-face {
+  font-family: "Lulo Clean One Bold";
+  src: url("/assets/fonts/LuloCleanOneBold.otf") format("opentype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Verb Light";
+  src: url("/assets/fonts/VerbLight.otf") format("opentype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+h2 {
+  text-align: center;
+  font-family: "Lulo Clean One Bold", sans-serif;
+  color: #2c336a;
+  font-size: 1rem;
+  padding-bottom: 0.8rem;
+}
+
+h3 {
+  text-align: center;
+  font-family: "Lulo Clean One Bold", sans-serif;
+  color: #2c336a;
+  font-size: 0.6rem;
+  padding-bottom: 0.8rem;
+}
+
+#logo {
+  width: 100px;
+}
+
+header {
+  display: flex; /* Use flexbox layout */
+  align-items: center; /* Vertically centers content */
+  justify-content: center; /* Horizontally centers content */
+  padding: 20px 0;
+  width: 100%;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Verb Light", sans-serif;
+  color: #2c336a;
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden; /* Prevent horizontal scroll */
+}
+
+footer {
+  display: flex;
+  position: fixed;
+  bottom: 0;
+  background-color: #009dde;
+  padding: 10px 0;
+  width: 100%;
+  justify-content: center;
+}
+
+.footer-icons {
+  list-style: none;
+  display: flex;
+  padding: 0;
+  margin: 0;
+  align-content: center;
+  gap: 20px;
+}
+
+.footer-icons li {
+  display: inline-block;
+}
+.footer-icons a {
+  display: inline-block;
+}
+
+.footer-icons a:hover {
+  transform: scale(1.1); /* Slightly enlarges icon on hover */
+  opacity: 0.8; /* Reduces opacity slightly */
+  transition: transform 0.3s ease, opacity 0.3s ease; /* Smooth hover transition */
+}
+
+.footer-icons img {
+  width: 30px;
+  height: auto;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: 175px 175px 175px;
+  align-items: start;
+  column-width: 350px;
+  padding: 0 10%;
+  justify-content: center;
+}
+
+.box-1-1 {
+  grid-column: span 2;
+  grid-row: span 2;
+  padding: 5px 0;
+}
+
+.box-1-2-1 {
+  grid-column-start: 1;
+  grid-row-start: 3;
+  padding: 25px 0;
+}
+.box-1-2-2 {
+  grid-column-start: 2;
+  grid-row-start: 3;
+  padding: 25px 0;
+}
+
+.box-2-1 {
+  grid-column: span 2 / span 2;
+  grid-row: span 2;
+  grid-column-start: 4;
+  padding: 5px 0;
+}
+
+.download-link img:hover {
+  opacity: 0.5; /* Reduces opacity slightly */
+  transform: scale(1.1); /* Slightly enlarges icon on hover */
+  transition: transform 0.3s ease, opacity 0.3s ease; /* Smooth hover transition */
+}

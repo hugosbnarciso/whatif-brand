@@ -1,0 +1,64 @@
+.templates {
+  position: relative;
+  margin: 0px auto;
+  align-content: center;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  background-color: #f9f9f9;
+  border-radius: 50px;
+  height: 350px;
+  width: 350px;
+  padding: 20px;
+}
+
+.templates-content {
+  display: flex;
+  justify-content: space-between;
+  height: 300px;
+  width: 350px;
+  padding: 20px;
+  align-content: center;
+}
+
+.templates-content ul {
+  list-style: none;
+  padding: 0;
+}
+
+.templates-content li {
+  position: relative;
+  margin-bottom: 10px;
+}
+
+.templates-content a {
+  text-decoration: none;
+  color: #2c336a;
+  font-weight: bold;
+}
+
+.templates-content a:hover {
+  color: #009dde;
+  /* Change text color on hover */
+}
+
+.templates-preview {
+  display: none;
+  position: absolute;
+  top: 0;
+  left: 100%;
+  width: 300px;
+  padding: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  background-color: #fff;
+  border-radius: 8px;
+  z-index: 10;
+}
+
+.templates-preview img {
+  width: 100%;
+  border-radius: 8px;
+}
+
+/* Show the preview when hovering over the list item */
+.templates-content li:hover .templates-preview {
+  display: block;
+}
