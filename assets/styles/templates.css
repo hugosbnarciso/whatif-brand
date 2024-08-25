@@ -5,7 +5,6 @@
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   background-color: #f9f9f9;
   border-radius: 50px;
-  height: 350px;
   width: 350px;
   padding: 20px;
 }
@@ -13,7 +12,7 @@
 .templates-content {
   display: flex;
   justify-content: space-between;
-  height: 300px;
+  height: 100%;
   width: 350px;
   padding: 20px;
   align-content: center;
